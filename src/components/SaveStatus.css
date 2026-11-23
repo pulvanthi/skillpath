@@ -1,0 +1,22 @@
+.save-status {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: min(420px, calc(100vw - 32px));
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  box-shadow: 0 8px 22px rgba(10, 20, 45, 0.18);
+  background: #fff;
+  border: 1px solid #e2eaf6;
+  color: #14213d;
+}
+.save-status.saving { color: #5b36d6; }
+.save-status.saved { border-color: #bde9dc; background: #e8f8f2; color: #07866d; }
+.save-status.failed { border-color: #f1b5ba; background: #fff1f2; color: #a8222d; }

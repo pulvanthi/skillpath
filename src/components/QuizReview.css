@@ -1,0 +1,23 @@
+.quiz-review-item .quiz-explanation {
+  margin: 6px 0 0;
+  padding: 8px 10px;
+  border-left: 3px solid #6944e8;
+  background: #f4f1ff;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.quiz-review-item .quiz-review-lesson { display: block; color: #7b89a5; margin: 2px 0 4px; }
+
+.quiz-history-list { display: grid; gap: 12px; margin-top: 16px; }
+.quiz-history-item {
+  background: #fff; border: 1px solid #e2eaf6; border-radius: 10px; padding: 12px 16px;
+}
+.quiz-history-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap; width: 100%; background: none; border: 0; font: inherit; cursor: pointer;
+  color: inherit; text-align: left;
+}
+.quiz-history-score { font-weight: 700; }
+.quiz-history-score.best { color: #1a9d57; }

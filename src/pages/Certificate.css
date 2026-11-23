@@ -1,0 +1,17 @@
+.certificate-actions { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+.certificate {
+  max-width: 820px; margin: 0 auto; padding: 48px 32px; text-align: center;
+  background: #fff; color: #14213d; border: 8px double #6944e8; border-radius: 6px;
+}
+.certificate-brand { letter-spacing: 0.3em; text-transform: uppercase; color: #6944e8; font-weight: 700; margin: 0 0 8px; }
+.certificate h1 { font-size: 34px; margin: 0 0 24px; }
+.certificate p { margin: 8px 0; }
+.certificate-name { font-size: 30px; font-weight: 700; border-bottom: 2px solid #14213d; display: inline-block; padding: 0 24px 4px; }
+.certificate-course { font-size: 24px; font-weight: 700; color: #6944e8; }
+.certificate-date { margin-top: 28px !important; color: #5a6783; }
+
+@media print {
+  body * { visibility: hidden; }
+  .certificate, .certificate * { visibility: visible; }
+  .certificate { position: absolute; left: 0; top: 0; width: 100%; max-width: none; }
+}

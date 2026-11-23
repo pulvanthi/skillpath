@@ -1,0 +1,28 @@
+.quiz-lesson-tag {
+  display: inline-block;
+  margin: 14px 0 0;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #eee8ff;
+  color: #5b36d6;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.quiz-badge-note {
+  margin: 14px 0 0; padding: 10px 14px; border-radius: 10px; font-size: 13px; line-height: 1.5;
+  background: #fff7e0; border: 1px solid #f4d26a; color: #6b4e00;
+}
+.quiz-badge-note.earned { background: #e8f8f2; border-color: #bde9dc; color: #07866d; font-weight: 700; }
+
+.quiz-section-title { margin: 24px 0 8px; font-size: 16px; }
+.quiz-modules { display: grid; gap: 10px; text-align: left; }
+.quiz-module-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 4px; font-size: 13px; }
+.quiz-revise-list { text-align: left; margin: 0 0 12px; padding-left: 20px; font-size: 13px; line-height: 1.7; }
+
+.quiz-card-meta { color: #7b89a5; font-size: 12px; }
+.quiz-card-stats { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; margin: 8px 0 12px; }
+.quiz-card-stats strong { font-size: 13px; }
+.quiz-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.quiz-pass-badge { color: #1a9d57; font-weight: 700; }
+.quiz-tip { color: #8a6d00; font-size: 12px; margin: 0 0 10px; }

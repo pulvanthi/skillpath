@@ -1,0 +1,16 @@
+/* sidebar: the Sign out entry looks like the other menu links but is a button */
+.sidebar button.nav-item.nav-signout {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* top bar: icon only on small screens so the bar does not overflow */
+.topbar-signout { flex-shrink: 0; }
+@media (max-width: 760px) {
+  .topbar-signout span { display: none; }
+  .topbar-signout { padding: 0 10px; }
+}
